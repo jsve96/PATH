@@ -1,0 +1,13 @@
+/dump
+results/*
+data/*
+synthetic/*
+/synthetic_irregular_recovery
+
+# !data/AirQuality.xlsx
+# !data/energy_data.csv
+# !data/eeg-eye-state.csv
+# !data/stock_data.csv
+
+**/checkpoints
+**/__pycache__

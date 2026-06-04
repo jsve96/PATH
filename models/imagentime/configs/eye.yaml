@@ -1,0 +1,24 @@
+# training:
+epochs: 1000
+batch_size: 128
+learning_rate: 0.0001 #1e-4
+weight_decay: 0.00001 #1e-5
+# data:
+dataset: eye
+seq_len: 128
+use_stft: false
+# transform:
+delay: 16
+embedding: 16
+# model:
+img_resolution: 16
+input_channels: 14
+unet_channels: 128
+ch_mult: [1,2,2,4]
+attn_resolution: [8,4,2]
+diffusion_steps: 18
+ema: true
+ema_warmup: 100
+# logging:
+logging_iter: 100
+
