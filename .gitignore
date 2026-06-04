@@ -8,6 +8,7 @@ synthetic/*
 !data/energy_data.csv
 !data/eeg-eye-state.csv
 !data/stock_data.csv
+!data/kdd_cup.npy
 
 **/checkpoints
 **/__pycache__
