@@ -1,5 +1,7 @@
 # Time Series Synthesis Benchmark
 
+Experimental code for Paper: 'Synthetic Time Series Generation via Adaptive Local Transition Kernels' 
+
 Benchmarking framework for multivariate time series generation. Supports SOTA methods evaluated against real data using discriminative and predictive metrics.
 
 ## Project Structure
